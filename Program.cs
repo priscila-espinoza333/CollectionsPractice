@@ -32,5 +32,37 @@ foreach (bool valor in VerdaderoFalso){
     Console.WriteLine(valor);
 }
 
+                // Lista de sabores 
+Console.WriteLine("------------Lista--------------");
+
+//Crea una lista de sabores de helados con almenos 5 sabores diferentes
+
+List<string> listaHelado = new List<string>();
+listaHelado.Add("Chocolate");
+listaHelado.Add("Frutos del bosque");
+listaHelado.Add("Lucuma");
+listaHelado.Add("Chocolate Brownie");
+listaHelado.Add("Platano");
+listaHelado.Add("Chocolate Blanco");
+listaHelado.Add("Mora Crema");
+
+for(int h = 0; h < listaHelado.Count; h++){
+     Console.WriteLine(listaHelado[h]);
+}
+Console.WriteLine("------------------");
+
+Console.WriteLine(listaHelado[3]);
+Console.WriteLine("------------------");
+
+listaHelado.RemoveAt(3);
+
+for(int h = 0; h < listaHelado.Count; h++){
+     Console.WriteLine(listaHelado[h]);
+}
+
+                //Diccionario
+Console.WriteLine("------------Diccionario--------------");
+
+
 
 
