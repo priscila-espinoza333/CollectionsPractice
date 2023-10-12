@@ -63,6 +63,20 @@ for(int h = 0; h < listaHelado.Count; h++){
                 //Diccionario
 Console.WriteLine("------------Diccionario--------------");
 
+Dictionary<string, string> usuario = new Dictionary<string, string>();
+
+usuario.Add("Tim","chocolate");
+usuario.Add("Martin","platano");
+usuario.Add("Nikki","frutos del bosque");
+usuario.Add("Sara","lucuama");
+
+foreach(KeyValuePair<string, string> renglon in usuario){
+    Console.WriteLine(renglon.Key + " - " + renglon.Value);
+}
+
+
+
+
 
 
 
